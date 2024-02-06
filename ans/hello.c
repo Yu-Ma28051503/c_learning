@@ -1,7 +1,7 @@
 /*
  * C言語入門1
  * hello.c
- * Hello, World! を出力するプログラム
+ * 標準出力を学習するプログラム
 */
 
 #include <stdio.h>
