@@ -53,8 +53,7 @@ int main(void)
 
     printf("多重ループ\n");
     for (i = 0; i < 10; i++) {
-        int j;
-        for (j = 0; j < 10; j++) {
+        for (int j = 0; j < 10; j++) {
             if (j == 5) {
                 continue;
             }

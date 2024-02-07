@@ -1,7 +1,7 @@
 /*
- * 
- *
- * 
+ * C言語入門2
+ * variable.c
+ * C言語の変数と型を学習するプログラム
 */
 
 #include <stdio.h>
@@ -46,6 +46,11 @@ int main(void)
     printf("ui = %u\n", ui);
     printf("ul = %lu\n", ul);
     printf("ull = %llu\n", ull);
+
+    // 定数
+    const int ci = 10;  // 定数
+    printf("ci = %d\n", ci);
+    //ci = 20;  // エラー
     
     return 0;
 }

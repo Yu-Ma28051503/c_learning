@@ -1,7 +1,7 @@
 /*
- * 
- * 
- * 
+ * C言語入門3
+ * calculation.c
+ * 演算を学習するプログラム
 */
 
 #include <stdio.h>
@@ -40,6 +40,8 @@ int main(void)
     printf("a != b: %d\n", a != b);  // a と b が等しくない
     printf("a > b: %d\n", a > b);  // a が b より大きい
     printf("a < b: %d\n", a < b);  // a が b より小さい
+    printf("a >= b: %d\n", a >= b);  // a が b 以上
+    printf("a <= b: %d\n", a <= b);  // a が b 以下
     
     printf("a&b: %d\n", a&b);  // a と b の論理積
     printf("a|b: %d\n", a|b);  // a と b の論理和
