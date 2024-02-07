@@ -21,12 +21,13 @@ Pythonを学習するためではないので学習時に書くcのコードと�
 つまってしまったら見て次に進もう．
 
 順番は以下の通り
-1. hello.c
-2. variable.c
-3. calculation.c
-4. io.c
-5. conditional_branch.c
-6. loop.c
-7. function.c
-8. structure.c
-9. file.c
+1. hello.c *
+2. variable.c *
+3. calculation.c *
+4. io.c *
+5. conditional_branch.c *
+6. loop.c *
+7. pointer.c (最難関) 
+8. function.c *
+9. structure.c *
+10. file.c *
