@@ -6,6 +6,8 @@
 
 #include <stdio.h>
 
+int global = 10;  // グローバル変数
+
 int main(void)
 {
     short s = 10;  // 整数型(2byte)

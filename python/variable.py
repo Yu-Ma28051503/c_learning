@@ -9,3 +9,6 @@ print(num, type(num))
 print(pi, type(pi))
 print(name, type(name))
 print(is_ok, type(is_ok))
+
+# global変数はglobal_の後に変数名をつけることで定義
+global_num = 10 # グローバル変数
