@@ -23,18 +23,19 @@ int main(void)
     unsigned long ul = 10;  // 符号なし整数型(4byte)
     unsigned long long ull = 10;  // 符号なし整数型(8byte)
 
-    printf("short: %d\n", sizeof(s));
-    printf("int: %d\n", sizeof(i));
-    printf("long: %d\n", sizeof(l));
-    printf("long long: %d\n", sizeof(ll));
-    printf("float: %d\n", sizeof(f));
-    printf("double: %d\n", sizeof(d));
-    printf("long double: %d\n", sizeof(ld));
-    printf("char: %d\n", sizeof(c));
-    printf("char[]: %d\n", sizeof(str));
-    printf("unsigned int: %d\n", sizeof(ui));
-    printf("unsigned long: %d\n", sizeof(ul));
-    printf("unsigned long long: %d\n", sizeof(ull));
+    // sizeof -> long unsighned int
+    printf("short: %ld\n", sizeof(s));
+    printf("int: %ld\n", sizeof(i));
+    printf("long: %ld\n", sizeof(l));
+    printf("long long: %ld\n", sizeof(ll));
+    printf("float: %ld\n", sizeof(f));
+    printf("double: %ld\n", sizeof(d));
+    printf("long double: %ld\n", sizeof(ld));
+    printf("char: %ld\n", sizeof(c));
+    printf("char[]: %ld\n", sizeof(str));
+    printf("unsigned int: %ld\n", sizeof(ui));
+    printf("unsigned long: %ld\n", sizeof(ul));
+    printf("unsigned long long: %ld\n", sizeof(ull));
 
     printf("s = %d\n", s);
     printf("i = %d\n", i);
