@@ -64,7 +64,7 @@ int main(void)
             printf("%d ", i * 10 + j);
         }
 
-        if(i = 2) continue;
+        if(i == 2) continue;
         if(i == 9) break;
     }
 

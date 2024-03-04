@@ -6,6 +6,9 @@
 
 #include <stdio.h>
 
+int add(int a, int b, int *sum);
+void cal(int a, int b, int *sum, int *diff, int *prod, int *quot);
+
 int main(void)
 {
     int a = 10;
