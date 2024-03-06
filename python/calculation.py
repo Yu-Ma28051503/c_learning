@@ -24,8 +24,8 @@ print('a <= b:', a <= b)  # 以下
 print('a and b:', a and b)  # 論理積
 print('a or b:', a or b)  # 論理和
 print('not a:', not a)  # 否定
-print('a in b:', a in b)  # 含まれる
-print('a not in b:', a not in b)  # 含まれない
+#print('a in b:', a in b)  # 含まれる
+#print('a not in b:', a not in b)  # 含まれない
 print('a is b:', a is b)  # 同じ
 print('a is not b:', a is not b)  # 同じでない
 print('a & b:', a & b)  # ビット積
