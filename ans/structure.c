@@ -7,7 +7,7 @@
 #include <stdio.h>
 #include <string.h>
 
-struct student {
+struct STUDENT {
     int id;
     char name[20];
     int age;
@@ -17,12 +17,12 @@ typedef struct {
     int id;
     char name[20];
     int age;
-} teacher;
+} TEACHER;
 
 int main(void)
 {
-    struct student student1, student2;
-    teacher teacher1, teacher2;
+    struct STUDENT student1, student2;
+    TEACHER teacher1, teacher2;
 
     student1.id = 100;
     strcpy(student1.name, "ikepe");

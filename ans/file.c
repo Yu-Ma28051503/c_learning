@@ -39,6 +39,7 @@ int main(void)
     // file3に追記
     fprintf(fp3, "Before she turned five, ten maidservants had fallen into a century of slumber.\n");
 
+    // ファイルポインタを閉じる
     fclose(fp1);
     fclose(fp2);
     fclose(fp3);
