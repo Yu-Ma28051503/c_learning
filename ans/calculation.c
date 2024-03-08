@@ -25,13 +25,13 @@ int main(void)
 
     // 代入演算
     printf("a += b: %d\n", a += b);  // a = a + b
-    a = 101; b = 23;
+    a = 101;
     printf("a -= b: %d\n", a -= b);  // a = a - b
-    a = 101; b = 23;
+    a = 101;
     printf("a *= b: %d\n", a *= b);  // a = a * b
-    a = 101; b = 23;
+    a = 101;
     printf("a /= b: %d\n", a /= b);  // a = a / b
-    a = 101; b = 23;
+    a = 101;
     printf("a %%= b: %d\n", a %= b);  // a = a % b
 
     // 値を初期値の戻す
