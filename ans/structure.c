@@ -8,7 +8,7 @@
 #include <string.h>
 
 struct STUDENT {
-    int id;
+    unsigned int id;
     char name[20];
     int age;
 };
