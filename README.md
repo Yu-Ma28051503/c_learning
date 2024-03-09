@@ -27,7 +27,7 @@ Pythonを学習するためではないので学習時に書くcのコードと�
 4. io.c *
 5. conditional_branch.c *
 6. loop.c *
-7. pointer.c (最難関) 
-8. function.c *
+7. function.c *
+8. pointer.c (最難関)
 9. structure.c *
 10. file.c *
